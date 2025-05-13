@@ -27,4 +27,7 @@ mahasiswa :: mahasiswa(int iNim, string iNama){
     nama = iNama;
 }
 
-void
+void mahasiswa :: cetak(){
+    cout << "NIM : " <<nim <<endl;
+    cout << "Nama :" <<nama <<endl;
+}
