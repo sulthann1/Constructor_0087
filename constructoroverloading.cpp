@@ -14,6 +14,11 @@ class mahasiswa{
     void cetak();
 };
 
-mahasiswa ::mahasiswa(){
-    
+mahasiswa ::mahasiswa (int iNim){
+    nim = iNim;
+}
+
+mahasiswa :: mahasiswa(int iNim, string iNama){
+    nim = iNim;
+    nama = iNama;
 }

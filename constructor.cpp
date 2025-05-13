@@ -1,2 +1,2 @@
-#include /,iostreram>
-usingnamespace std;
+#include <iostream>
+using namespace std;
